@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.l1,.l2{
+    margin:1%;
+}
+.btn{
+    height:20vh;
+    width:20vh;
+    border:2px solid black;
+    margin:10%;
+    border-radius: 20%;
+}
+.green{
+    background-color: #99f7ab;
+}
+.gray{
+    background-color: #60695c;
+}
+.mint{
+    background-color: #43C59E;
+}
+.aqua{
+    background-color: #3DFAFF;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color:green;
+}
+.gameend{
+    background-color: red;
+}
