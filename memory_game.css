@@ -1,5 +1,12 @@
 body{
     text-align: center;
+    background-color: #F7EFE5;
+}
+h1{
+    color:#674188;
+}
+h2{
+    color:#6BF178;
 }
 .container{
     display:flex;
@@ -35,4 +42,16 @@ body{
 }
 .gameend{
     background-color: red;
+}
+.start{
+    background-color: green;
+    padding:0.5vh 2vh;
+    border-radius: 5vh;
+}
+.instructions{
+    text-align: left;
+    background-color: #E2BFD9;
+    border-radius: 1vh;
+    padding:1vh;
+    color:#201E43;
 }

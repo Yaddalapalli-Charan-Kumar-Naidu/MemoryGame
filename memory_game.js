@@ -6,15 +6,14 @@ let highscore=0;
 let h2=document.querySelector("h2");
 let colors=["gray","mint","green","aqua"];
 
-document.addEventListener("keypress",function(){
+let startbtn=document.querySelector(".start");
+
+startbtn.addEventListener("click",function(){
     if(start==0){
         start=1;
         levelUp();
     }
 });
-function startGame(){
-
-}
 function levelUp(){
     userSeq=[];
     h2.innerText=`level ${++level}`;
@@ -55,9 +54,9 @@ function checkSeq(idx){
             
         }
     }else{
-        h2.innerText=`Game over your score was :${level} press any key to start`;
+        h2.innerText=`Game over your score was :${level} press start to play again`;
         document.querySelector("body").style.backgroundColor='red';
-        setTimeout(function(){document.querySelector("body").style.backgroundColor='white';},150);
+        setTimeout(function(){document.querySelector("body").style.backgroundColor='#F7EFE5';},150);
         reset();
 
     }
